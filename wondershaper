@@ -5,8 +5,7 @@
 # Modifications by Vince Mulhollon for debian package
 
 if [ $# -eq 0 ]; then
-  echo Please read the man page for the wondershaper and 
-  echo the file /usr/share/doc/wondershaper/README.Debian.gz
+  echo Please read the manpage for the wondershaper
   exit
 fi
 
@@ -24,8 +23,7 @@ if [ $# -eq 2 ]; then
 fi
 
 if [ $# -ne 3 ]; then
-  echo Please read the man page for the wondershaper and
-  echo the file /usr/share/doc/wondershaper/README.Debian.gz
+  echo Please read the man page for the wondershaper
   exit
 fi
 
